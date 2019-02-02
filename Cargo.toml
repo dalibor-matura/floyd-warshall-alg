@@ -1,6 +1,6 @@
 [package]
 name = "floyd-warshall-alg"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Dalibor Matura <dalibor.matura@gmail.com>"]
 edition = "2018"
 description = "Xor distances exercise including xor and bit operations."
