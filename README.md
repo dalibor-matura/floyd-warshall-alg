@@ -6,6 +6,18 @@ Rust implementation of Floyd Warshall algorithm supporting customization.
 |:---:|:-----------:|:-------:|:-----:|
 |[![Crate](http://meritbadge.herokuapp.com/floyd-warshall-alg)](https://crates.io/crates/floyd-warshall-alg)|[![Documentation](https://docs.rs/floyd-warshall-alg/badge.svg)](https://docs.rs/floyd-warshall-alg)|[![Build Status](https://travis-ci.org/dalibor-matura/floyd-warshall-alg.svg?branch=master)](https://travis-ci.org/dalibor-matura/floyd-warshall-alg)|[![codecov](https://codecov.io/gh/dalibor-matura/floyd-warshall-alg/branch/master/graph/badge.svg)](https://codecov.io/gh/dalibor-matura/floyd-warshall-alg)
 
+## Customization
+
+Operator
+* Is used to calculate a new path weight when trying the path through additional node `k`.
+* By default set to be standard `addition`.
+* Can be used to replace default `addition` to something else (e.g. multiplication).
+
+Comparison
+* Is used for a newly tested path (through `k`) and the old path to determine if the new path weight is better.
+* By default set to be standard `min` (return `true` if the left argument is lower than the right).
+* Can be used to replace default `min` to something else (e.g. `max`).
+
 ## Dependencies
 
 Safe Graph ([safe-graph](https://crates.io/crates/safe-graph))
