@@ -1,6 +1,6 @@
-# Floyd Warshall algorithm
+# Floyd-Warshall algorithm
 
-Rust implementation of Floyd Warshall algorithm supporting customization. 
+Rust implementation of Floyd-Warshall algorithm supporting customization.
 
 |Crate|Documentation|Travis CI|CodeCov|
 |:---:|:-----------:|:-------:|:-----:|

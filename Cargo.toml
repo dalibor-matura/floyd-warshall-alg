@@ -1,15 +1,15 @@
 [package]
 name = "floyd-warshall-alg"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["Dalibor Matura <dalibor.matura@gmail.com>"]
 edition = "2018"
-description = "Xor distances exercise including xor and bit operations."
+description = "Floyd-Warshall algorithm supporting customization."
 documentation = "https://docs.rs/floyd-warshall-alg"
 homepage = "https://github.com/dalibor-matura/floyd-warshall-alg"
 license = "GPL-3.0"
 readme = "README.md"
 repository = "https://github.com/dalibor-matura/floyd-warshall-alg"
-keywords = ["floyd", "warshall", "alg", "algorithm"]
+keywords = ["floyd-warshall", "floyd", "warshall", "alg", "algorithm"]
 
 [badges]
 travis-ci = { repository = "dalibor-matura/floyd-warshall-alg", branch = "master" }
